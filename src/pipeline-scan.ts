@@ -70,7 +70,7 @@ export function getPolicyFile (scanCommand:any,parameters:any){
 }
 
 export async function getPolicyNameByProfileName(inputs: any) {
-    const appname = inputs.appname;
+    const appname = inputs.app_name;
     const vid = inputs.vid;
     const vkey = inputs.vkey;
     let policyName = ''

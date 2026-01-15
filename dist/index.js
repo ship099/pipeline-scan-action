@@ -106984,7 +106984,7 @@ function getPolicyFile(scanCommand, parameters) {
 exports.getPolicyFile = getPolicyFile;
 function getPolicyNameByProfileName(inputs) {
     return __awaiter(this, void 0, void 0, function* () {
-        const appname = inputs.appname;
+        const appname = inputs.app_name;
         const vid = inputs.vid;
         const vkey = inputs.vkey;
         let policyName = '';
