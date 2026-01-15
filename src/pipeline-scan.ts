@@ -81,6 +81,7 @@ export async function getPolicyNameByProfileName(inputs: any) {
       core.info(`No application found with name ${appname}`);
       policyName = inputs.veracode_policy_name
     }
+    core.info(`Setting the Policy to ${policyName}`)
     return policyName
   }
 
